@@ -1,0 +1,17 @@
+body { background-color: #f1f0ff; font-family: sans-serif; display: flex; justify-content: center; padding-top: 50px; }
+.app-container { width: 500px; }
+h1 { color: #553c9a; text-align: center; }
+.subtitle { color: #553c9a; text-align: center; margin-bottom: 20px; }
+
+.input-group { display: flex; gap: 10px; margin-bottom: 20px; }
+input { flex: 1; padding: 15px; border: 1px solid #ddd; border-radius: 8px; }
+.add-btn { background-color: #6b46c1; color: white; border: none; padding: 15px 30px; border-radius: 8px; cursor: pointer; }
+
+.stats-container { display: flex; gap: 15px; margin-bottom: 20px; }
+.stat-card { background: white; padding: 20px; border-radius: 10px; flex: 1; text-align: center; border: 1px solid #e0e0e0; }
+
+.task-item { background: white; padding: 15px; border-radius: 10px; margin-bottom: 10px; display: flex; align-items: center; border: 1px solid #e0e0e0; }
+.actions { margin-left: auto; display: none; gap: 10px; }
+.task-item:hover .actions { display: flex; }
+.edit-btn { color: #4299e1; cursor: pointer; }
+.delete-btn { color: #e53e3e; cursor: pointer; }
